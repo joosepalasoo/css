@@ -17,8 +17,15 @@ body{
 
 /* header */
 
+.header{
+    background-color: #565656;
+    color: #fff;
+}
 
 /* content */
 
+.content img{
+    width: 100%;
+}
 
 /* footer */
