@@ -20,12 +20,43 @@ body{
 .header{
     background-color: #565656;
     color: #fff;
+    padding: 10px 40px;
+}
+
+h1, h2{
+    font-weight: 400;
 }
 
 /* content */
-
+.content{
+    padding: 40px;
+}
 .content img{
     width: 100%;
 }
 
+.content ul{
+    padding-left: 60px;
+}
+
+
 /* footer */
+
+.footer{
+    padding: 40px;
+    background-color: #000;
+    color: #fff;
+}
+
+
+.footer a{
+    color: #fff;
+    text-decoration: none;
+    height: 60px;
+}
+
+.footer a:hover{
+    color: #ededed;
+    text-decoration: underline;
+}
+
