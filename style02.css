@@ -12,7 +12,7 @@
     background-image: url('pildid/cool-background.png');
     background-size: cover;
     background-position: center;
-    height: 480px; /* Adjust the height as needed */
+    height: 480px;
     display: flex;
     align-items: center;
     justify-content: center;
