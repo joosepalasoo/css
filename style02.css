@@ -1,4 +1,5 @@
 /* global */
+
 *{
     margin: 0;
     padding: 0;
@@ -25,14 +26,37 @@
     margin-top: 20px;
 }
 
-/* content */
-.content h1{
-    font-weight: 00;
-    margin: 20px 0;
+.header .slogan {
+    font-size: 20px;
 }
+
+/* content */
+
+.content .left {
+    max-width: 20%;
+    float: left;
+    display:block;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.content .right {
+    max-width: 75%;
+    float: right;
+    display:block;
+    font-size: 20px;
+    line-height: 2.0;
+}
+
+
 
 /* footer */
 .footer {
     font-size: 32px;
     text-align: center;
+    background-color: #f7c202;
+    display: block;
+    max-width: 100%;
+    clear: both;
 }
